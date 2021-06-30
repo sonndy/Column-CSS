@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.main {
+   
+    /* width: 100%; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.car {
+    width: 330px;
+    height: 430px;
+    padding: 3rem;
+    margin: auto;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.SUV {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.Luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 50px;
+}
+
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 30px;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+button:hover {
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sedan {
+    color: hsl(31, 77%, 52%);;
+}
+
+.btn-sedan:hover {
+    background-color: hsl(31, 77%, 52%);
+    padding: 10px 22px;
+}
+
+.btn-suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-suvs:hover {
+    background-color: hsl(184, 100%, 22%);
+    padding: 10px 22px
+}
+
+.btn-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn-luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    padding: 10px 22px
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    
+}
+
+@media screen and (min-width: 995px) {
+    .main {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-right: 0;
+        
+    }
+
+    .Luxury {
+        margin-bottom: 0;
+        border-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .sedan {
+        border-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .car {
+        margin: 0;
+        height: 500px;
+    }
+
+    p {
+        padding-bottom: 50px;
+    }
+
+
+}
