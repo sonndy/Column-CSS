@@ -33,4 +33,4 @@ I learned the importance of a mobile first workflow, and how important it is to 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Sonndy Exantus](https://www.your-site.com)
