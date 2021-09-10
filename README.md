@@ -18,7 +18,7 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+[Live Site](https://sonndy.github.io/Column-CSS/index.html)
 
 ## My process
 
