@@ -12,7 +12,8 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/desktopDesign.png)
+![](images/mobileDesign.png)
 
 
 ### Links
