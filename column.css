@@ -5,6 +5,8 @@
 body {
     font-size: 15px;
     background-color: hsl(0, 0%, 95%);
+    height: 100%;
+    overflow: hidden;
 }
 
 .main {
